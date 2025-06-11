@@ -1,12 +1,13 @@
 {
   "name": "vite-react-starter",
   "private": true,
-  "homepage": "https://m00ncat.github.io/Drift",
-  "version": "0.0.0",
+  "homepage": "https://M00nCat.github.io/Drift/",  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
